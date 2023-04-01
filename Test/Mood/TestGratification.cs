@@ -1,4 +1,4 @@
-﻿using Emotion.Mood;
+﻿using Emotion.ShortTerm;
 
 namespace Emotion.Test.Mood;
 

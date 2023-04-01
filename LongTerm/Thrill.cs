@@ -1,6 +1,4 @@
-﻿using Emotion.Base;
-
-namespace Emotion.LongTerm;
+﻿namespace Emotion.LongTerm;
 
 public class Thrill: Feeling
 {

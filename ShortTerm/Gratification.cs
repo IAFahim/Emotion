@@ -1,9 +1,8 @@
-﻿using Emotion.Base;
-using Emotion.LongTerm;
+﻿using Emotion.LongTerm;
 
-namespace Emotion.Mood;
+namespace Emotion.ShortTerm;
 
-public class Gratification : Base.Mood
+public class Gratification : Mood
 {
     public float State => Feelings.Sum(f => f.State);
     public float DownRate => Feelings.Sum(f => f.DownRate);
